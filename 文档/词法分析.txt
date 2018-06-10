@@ -1,0 +1,9 @@
+词法分析识别输入的单词，在编译原理及实践源码中，以currentToken表示现在识别的单词记号
+程序调用词法分析代码，连续识别单词，直到currentToken值为ENDFILE
+fprintf(listing)
+listing是stdout，
+代码中有如此多的fprintf，为啥在cmd中运行tny文件的时候屏幕没有输出？
+
+
+
+两种语法树结构，一个是以op节点为父节点，factor作为子节点；一种是op与factor同为factor的子节点，后一个factor为父factor。
